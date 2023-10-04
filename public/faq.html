@@ -17,13 +17,13 @@
     <link rel="icon" type="image/png" sizes="180x180" href="assets/img/apple-touch-icon.png?h=7862ef6c4c8c430d922b0a527d51fd24">
     <link rel="icon" type="image/png" sizes="192x192" href="assets/img/android-chrome-192x192.png?h=332ef3bcbe248e778cd0dc8adede892b">
     <link rel="icon" type="image/png" sizes="512x512" href="assets/img/android-chrome-512x512.png?h=7862ef6c4c8c430d922b0a527d51fd24">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=b08aa8331c3f823bb35cc9a0ec931d5c">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=9a01165dc895d9bf99f831fa95e94a13">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="assets/css/styles.min.css?h=ca9b18e1ad87614aef8531ee43b07cbe">
+    <link rel="stylesheet" href="assets/css/styles.min.css?h=78f60214ba57ecc0e59f6f37354bd7b5">
 <!-- Pixel Code for https://app.tinyanalytics.io/ -->
 <script defer src="https://app.tinyanalytics.io/pixel/wA0CrnwCEQcay0Pu"></script>
 <!-- END Pixel Code -->
@@ -37,7 +37,7 @@
                     <li class="nav-item"></li>
                     <li class="nav-item"><a class="nav-link" href="index.html">home</a></li>
                     <li class="nav-item"><a class="nav-link" href="faq.html">fAQ</a></li>
-                    <li class="nav-item"><a class="nav-link" href="Manual.html">Instructions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="Manual.html">Multisig-Manual</a></li>
                 </ul>
             </div>
         </div>
@@ -70,7 +70,7 @@
                 <div class="panel">
                     <p>If you login to the BroClan service using a set of keys that belong to a multisig wallet, our system can find that multisig wallet and load it for you automatically.<br><br>Additionally recreating a wallet with the exact same settings will create the same wallet and all your funds will be available inside it.&nbsp;<br><br>If you want to keep a digital copy of your wallet you can download it from Overview-&gt; Settings -&gt; Download&nbsp;<br><br><em>*at the current (beta) stage of development we cannot guaranty that the service will store all multisig wallets long-term, it is advised that you keep a copy of the wallet and/or use a set of keys that is easy to find again to recreate the wallet safely.&nbsp;</em></p>
                 </div><!-- Start: br --><br ><!-- End: br -->
-                <h2 class="text-uppercase text-center" style="font-size: 48;">Token Vaults</h2>
+                <h2 class="text-uppercase text-center" style="font-size: 48;">Token Vaults faq</h2>
             </div><!-- Start: br --><br ><!-- End: br -->
             <div class="faqelement"><button class="btn btn-primary faq on" type="button" style="box-shadow: none;">What is a token Vault ?&nbsp;</button>
                 <div class="panel">
@@ -85,6 +85,11 @@
             <div class="faqelement"><button class="btn btn-primary faq on" type="button" style="box-shadow: none;">Can I unlock a token Vault&nbsp; by minting another one with the same name ?</button>
                 <div class="panel">
                     <p>No.<br><br>The Name you chose to give your Token Vault is strictly to give you a better experience. If a tokenVaults key is lost, the content cannot be unlocked under any circumstance.&nbsp;</p>
+                </div>
+            </div><!-- Start: br --><br ><!-- End: br -->
+            <div class="faqelement"><button class="btn btn-primary faq on" type="button" style="box-shadow: none;">Can I send funds directly to my tokenVault ?</button>
+                <div class="panel">
+                    <p>No.<br><br>Because of limitations with Plutus you can only deposit funds into your tokenVault via the deposit tab.&nbsp;<br><br>Sending from other BroClan wallets is supported but sending from any other wallet will cause all the money you send to be permanently lost.</p>
                 </div>
             </div><!-- Start: br --><br ><!-- End: br -->
             <div class="faqelement"><button class="btn btn-primary faq on" type="button" style="box-shadow: none;">How decentralized is the BroClan tokenVaults system?</button>
@@ -115,7 +120,15 @@
     <!-- Start: Footer Basic -->
     <footer class="footer-basic" style="background: rgb(0,0,0);">
         <!-- Start: Social Icons -->
-        <div class="social"><a href="https://twitter.com/BroClanWallet" target="_blank"><i class="icon ion-social-twitter"></i></a><a href="https://github.com/leo42/BroClanWallet" target="_blank"><i class="icon ion-social-github"></i></a></div><!-- End: Social Icons -->
+        <div class="social"><a href="https://twitter.com/BroClanWallet" target="_blank"><i class="icon ion-social-twitter"></i></a><a href="https://discord.gg/ETK8cvnB3u" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icon-tabler-brand-discord" style="height: 31px;margin-top: -6px;width: 30px;">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <circle cx="9" cy="12" r="1"></circle>
+                    <circle cx="15" cy="12" r="1"></circle>
+                    <path d="M7.5 7.5c3.5-1 5.5-1 9 0"></path>
+                    <path d="M7 16.5c3.5 1 6.5 1 10 0"></path>
+                    <path d="M15.5 17c0 1 1.5 3 2 3c1.5 0 2.833 -1.667 3.5 -3c.667 -1.667 .5 -5.833 -1.5 -11.5c-1.457 -1.015 -3 -1.34 -4.5 -1.5l-1 2.5"></path>
+                    <path d="M8.5 17c0 1 -1.356 3 -1.832 3c-1.429 0 -2.698 -1.667 -3.333 -3c-.635 -1.667 -.476 -5.833 1.428 -11.5c1.388 -1.015 2.782 -1.34 4.237 -1.5l1 2.5"></path>
+                </svg></a><a href="https://github.com/leo42/BroClanWallet" target="_blank"><i class="icon ion-social-github"></i></a></div><!-- End: Social Icons -->
         <!-- Start: Links -->
         <ul class="list-inline">
             <li class="list-inline-item"><a href="index.html">Home</a></li>
